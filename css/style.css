@@ -4,3 +4,27 @@
     text-decoration: none;
     list-style: none;
 }
+
+table {
+    border: 1px solid black;
+    max-height: 552px;
+    max-width: 1000px;
+    width: 100vw;
+    height: 100vh;
+
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    text-align: center;
+    width: 12.5%;
+}
+
+thead {
+    height: 6.25%;
+}
+
+tr {
+    height: 12.5%;
+}
